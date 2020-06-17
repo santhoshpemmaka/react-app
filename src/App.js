@@ -81,8 +81,7 @@
 // }
 
 import React from 'react';
-import Redux from './redux/redux'
-
+import Redux from './redux/redux';
 class App extends React.Component{
     render(){
         return(
