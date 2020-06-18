@@ -7,7 +7,7 @@ class Header extends React.Compoenent {
         );
     }
 }
-// Header folder
+
 
 
 export default Header;
