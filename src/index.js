@@ -10,6 +10,7 @@ import { getvisibiltyExpenses} from './selectors/getvisibiltyExpenses';
 const store = configureStore();
 
 store.dispatch(addExpense({description : 'water',amount :1000}))
+store.dispatch(addExpense({description : 'rent',amount :1000}))
 store.dispatch(setTextFilter('rent'))
 
 const state = store.getStore();

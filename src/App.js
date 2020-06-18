@@ -82,6 +82,7 @@
 
 import React from 'react';
 import Redux from './redux/redux';
+import AddExpenses from './component/exensesDashboard';
 class App extends React.Component{
     render(){
         return(
